@@ -1,5 +1,7 @@
+import { Title } from "components/global";
+
 export default function Home() {
   return (
-    <h1>NewOS</h1>
+    <Title>NewOS</Title>
   )
 }
