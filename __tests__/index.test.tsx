@@ -1,5 +1,6 @@
 import { render, screen } from '@testing-library/react'
 import Home from '@/pages/index'
+import 'jest-styled-components'
 
 describe('Home', () => {
   it('renders a heading', () => {

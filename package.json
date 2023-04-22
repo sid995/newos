@@ -8,7 +8,7 @@
     "start": "next start",
     "lint": "next lint",
     "prepare": "husky install",
-    "test": "jest --watch",
+    "test": "jest",
     "stylelint": "stylelint **/*.tsx"
   },
   "dependencies": {
@@ -32,6 +32,7 @@
     "husky": "^8.0.0",
     "jest": "^29.5.0",
     "jest-environment-jsdom": "^29.5.0",
+    "jest-styled-components": "^7.1.1",
     "lint-staged": "^13.2.1",
     "postcss-styled-syntax": "^0.4.0",
     "sass": "^1.59.2",
